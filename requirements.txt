@@ -1,0 +1,14 @@
+# Python 3.13
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+catboost
+joblib
+pyarrow
+openpyxl
+hnswlib        # only needed if EXACT_SEARCH = False (approximate search); imported unconditionally
+matplotlib
+seaborn
+jupyter

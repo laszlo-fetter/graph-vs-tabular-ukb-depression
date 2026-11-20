@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+# UK Biobank data are confidential: nothing participant-level may be committed.
+# ---------------------------------------------------------------------------
+
+# Original notebooks with outputs (contain participant-level output) - local only
+_private_original_notebooks/
+
+# Results (aggregate, but review before publishing; un-ignore deliberately if you want to share them)
+results/
+
+# Any data-like file, wherever it ends up
+*.tsv
+*.tsv.gz
+*.txt.gz
+*.csv
+*.csv.gz
+*.parquet
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.feather
+*.xlsx
+ckpt_*/
+data/
+preprocessed/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+catboost_info/
